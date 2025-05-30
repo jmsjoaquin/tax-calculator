@@ -42,16 +42,3 @@ class SalaryTracker:
             "gross_salary": round(gross, 2)
         }
 
-
-
-# if __name__ == "__main__":
-#     tracker = SalaryTracker(daily_rate=600)
-
-#     entries = [
-#         {"date": "2025-05-02", "time_in": "08:00", "time_out": "17:30"},
-#         {"date": "2025-05-03", "time_in": "09:00", "time_out": "15:00"},
-#         {"date": "2025-05-04", "time_in": "08:00", "time_out": "21:00"}
-#     ]
-
-#     result = tracker.compute_salary(entries, month=5, year=2025)
-#     print(result)

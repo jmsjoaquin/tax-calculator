@@ -12,5 +12,5 @@ from auth.user_manager import UserManager
 um = UserManager()
 response = um.register("james", "securepass123")
 print(response)
-users = um._load_users()
-print("Current users:", users)
+# users = um._load_users()
+# print("Current users:", users)
